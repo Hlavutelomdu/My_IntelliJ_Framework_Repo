@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="SalesForce" thread-count="5" Parallel = "classes">
+    <test name="Login Test">
+        <classes>
+            <class name="TestCases.TC001_Login" />
+            <class name="TestCases.TC002_CreateServiceTerritory"/>
+        </classes>
+
+    </test>
+</suite>
